@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<meta name="robots" content="noindex">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.min.css">
+	<link rel="stylesheet" href="css/animsition.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/jquery-scrollInTurn.js"></script>
+	<script src="js/animsition.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>new WOW().init();</script>
+</head>
+<body id="index">
+<header id="top-head">
+  <div id="top-head-inner">
+    <div id="nav-toggle">
+      <div>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <nav id="global-nav">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="pages/information.html">Information</a></li>
+        <li><a href="hp.html">HP</a></li>
+        <li><a href="mail.html">Mail</a></li>
+        <li><a href="image.html">Image</a></li>
+      </ul>
+    </nav>
+    <div id="nav-bg"></div>
+  </div>
+</header>
+<div class="animsition">
+  <h1><a href="index.html" class="animsition-link">Portfolio</a></h1>
+	<div id="wrap">
+	<section>
+		<ul id="main">
+			<li class="mail">
+				<a href="pages/komaki.html" class="animsition-link">
+					<img src="images/komaki_s.png">
+					<span>Image</span>
+					<h2>営業ツール</h2>
+				</a>
+			</li>
+			<li class="mail">
+				<a href="pages/neoromalogo.html" class="animsition-link">
+					<img src="images/neoromalogo_s.jpg">
+					<span>Image</span>
+					<h2>「ネオロマンスイベント」ビジュアルイメージ</h2>
+				</a>
+			</li>
+		</ul>
+	</section>
+	</div><!-- /#wrap -->
+	<footer>
+		<div>&copy;M</div>
+	</footer>
+	<p id="page-top"><a href="#wrap"><i class="fa fa-arrow-up"></i></a></p>
+	</div><!-- /.animsition -->
+	<script src="js/animsition_setting.js"></script>
+	<script src="js/to_top_setting.js"></script>
+	<script>
+	  $('#nav-toggle').click(function(){
+	    $('body').toggleClass('open');
+	  });
+	</script>
+</body>
+</html>
